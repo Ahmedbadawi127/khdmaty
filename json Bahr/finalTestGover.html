@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>City SELECT Element with JSON using JavaScript</title>
+    <style>
+    	select, p, input {
+        	font: 1em Calibri;
+        }
+    </style>
+</head>
+<body>
+
+    <!--The SELECT element.-->
+    <select id="choose" onchange="show(this)">
+        <option value="">-- choose --</option>
+    </select>
+
+    <p id="msg"></p>
+
+
+</body>
+
+<script>
+    // Replace ./data.json with your JSON feed
+    fetch('http://localhost:3000/Government').then(response => {
+    return response.json();
+}).then(data => {
+  // Work with JSON data hereconsole.log(data);
+    let Government = data;
+
+        var ele = document.getElementById('choose');
+        for (var i = 0; i < Government.length; i++) {
+            // CITY SELECT ELEMENT WITH JSON.
+            ele.innerHTML = ele.innerHTML +
+                '<option value="' + Government[i]['ID'] + '">' + Government[i]['Govern'] + '</option>';
+        }
+        
+
+        function show(ele) {
+
+// GET THE SELECTED VALUE FROM <select> ELEMENT AND SHOW IT.
+var msg = document.getElementById('msg');
+msg.innerHTML = 'choosed Govern: <b>' + ele.options[ele.selectedIndex].text + '</b> </br>' +
+    'ID: <b>' + ele.value + '</b>';
+}
+
+}).catch(err => {
+    console.log("Govern error");
+  // Do something for an error here
+});
+
+</script>
+</html>
