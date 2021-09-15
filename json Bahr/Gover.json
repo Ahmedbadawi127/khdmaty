@@ -1,0 +1,24 @@
+{
+
+    "Government": [
+      {
+        "ID": 1,
+        "Govern_name": "Cairo"
+      },
+      {
+        "ID": 2,
+        "Govern_Name": "Minia"
+      },
+      {
+        "ID": 3,
+        "City_Name": "Alex"
+      },
+     
+      {
+        "ID": 4,
+        "City_Name": "Asuuit"
+      }
+      
+      
+    ]
+  }
