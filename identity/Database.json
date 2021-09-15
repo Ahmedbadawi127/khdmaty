@@ -1,0 +1,92 @@
+{
+  "Users": [
+    {
+      "name": "mohamed",
+      "email": "mohamedpakh33@gmail.com",
+      "password": "12345678",
+      "phone": "01203743103",
+      "type": "custmer",
+      "address": "minia",
+      "government": "minia",
+      "city": "minia",
+      "id": 1
+    },
+    {
+      "name": "mohamed",
+      "email": "ewqfcwe",
+      "password": "fewfewfwefew",
+      "phone": "1222213",
+      "type": "r",
+      "address": "`csc",
+      "government": "",
+      "city": "t",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "password": "",
+      "phone": "",
+      "type": "custmer",
+      "address": "",
+      "government": "",
+      "city": "",
+      "id": 3
+    },
+    {
+      "name": "mohame",
+      "email": "wsasa",
+      "password": "sasasa",
+      "phone": "342423",
+      "type": "fsfsfs",
+      "address": "sffsfsf",
+      "government": "fsfsfs",
+      "city": "fsfs",
+      "id": 4
+    },
+    {
+      "name": "ashraf",
+      "email": "ashraf@gmail.com",
+      "password": "87654321",
+      "phone": "01203743103",
+      "type": "custmer",
+      "address": "minia",
+      "government": "minia",
+      "city": "minia",
+      "id": 5
+    },
+    {
+      "name": "mona",
+      "email": "mona@gmail.com",
+      "password": "12345678",
+      "phone": "0120386432",
+      "type": "coustmer",
+      "address": "minia",
+      "government": "minia",
+      "city": "minia",
+      "id": 6
+    },
+    {
+      "name": "hamza",
+      "email": "hamza@gmil.com",
+      "password": "12345678",
+      "phone": "012038765",
+      "type": "customer",
+      "address": "minia",
+      "government": "minia",
+      "city": "minia",
+      "id": 7
+    },
+    {
+      "name": "ahmed",
+      "email": "ahmed@gmail.com",
+      "password": "12345678",
+      "phone": "3342324",
+      "type": "customer",
+      "address": "jkjh",
+      "government": "jjhjk",
+      "city": "jjkkjkj",
+      "id": 8
+    }
+  ]
+}
