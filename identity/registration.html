@@ -122,15 +122,19 @@
 					<hr>
 
 					<div>
+
+						
 							  <div class="col-sm-10">
+
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="customer">
-								  <label class="form-check-label" for="gridRadios1">
-									Customer
-								  </label>
-								</div>
+									<input onclick="notdisplayCheck()" class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="customer">
+									<label class="form-check-label" for="gridRadios1">
+									  Customer
+									</label>
+								  </div>
+
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="company">
+								  <input onclick="displayCheck()" class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="company">
 								  <label class="form-check-label" for="gridRadios2">
 									Company
 								  </label>
@@ -141,33 +145,55 @@
 					<hr>
 
 
-
-					<hr>
+<div style="display: none;"id="ser">
 
 					<div>
 							  <div class="col-sm-10">
+
 								<div class="form-check">
-								  <input class="form-check-input" type="checkbox" name="gridcheckboxs" id="gridcheckboxsgridcheckboxs1" value="customer">
+									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxsgridcheckboxs1" value="polishing">
+									<label class="form-check-label" for="gridcheckboxs1">
+									  خدمة جلي و تنظيف
+									</label>
+								  </div>
+								<div class="form-check">
+								  <input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxsgridcheckboxs1" value="sterilization">
 								  <label class="form-check-label" for="gridcheckboxs1">
 									خدمة التعقيم والتطهير
 								  </label>
 								</div>
+
+
 								<div class="form-check">
-								  <input class="form-check-input" type="checkbox" name="gridcheckboxs" id="gridcheckboxs2" value="company">
+								  <input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="insideOut">
 								  <label class="form-check-label" for="gridcheckboxs2">
-									نظافه الواجهات الخارجية للمبانى  
+									نظافه الواجهات الخارجية و الداخليه للمبانى  
 								  </label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="checkbox" name="gridcheckboxs" id="gridcheckboxs2" value="company">
+									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="HouseClean">
 									<label class="form-check-label" for="gridcheckboxs2">
-										نظافه الواجهات الداخلية  للمبانى
+										نظافه منزليه
 									</label>
 								  </div>
+								  <div class="form-check">
+									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="InBuild">
+									<label class="form-check-label" for="gridcheckboxs2">
+										نظافة المنشآت من الداخل
+									</label>
+								  </div>
+								  <div class="form-check">
+									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="specified">
+									<label class="form-check-label" for="gridcheckboxs2">
+										خدمات محدده
+									</label>
+								  </div>
+
 							  </div>
 					</div>
 					<hr>
 
+				</div>
 
 
 
@@ -207,6 +233,21 @@
 	</div>
 	
 <!--===============================================================================================-->
+<script >
+function displayCheck() {
+	var x = document.getElementById("ser");
+	  x.style.display = "block";
+	
+  }
+  function notdisplayCheck() {
+	var x = document.getElementById("ser");
+	  x.style.display = "none";
+	
+  }
+  </script>
+
+
+
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
 <!--===============================================================================================-->
 	<script src="vendor/animsition/js/animsition.min.js"></script>
