@@ -21,9 +21,30 @@
       "government": "cairo",
       "city": "cairo",
       "id": 2
+    },
+    {
+      "name": "Ahmed Badawi",
+      "email": "ahmedbadawi127@gmail.com",
+      "password": "1",
+      "phone": "+201008253091",
+      "type": "company",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "2",
+      "city": "3",
+      "id": 3
+    },
+    {
+      "name": "Ahmed tttt",
+      "email": "ahmedbadawi127@gmail.com",
+      "password": "1111111111",
+      "phone": "+201008253091",
+      "type": "company",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "3",
+      "city": "1",
+      "id": 4
     }
   ],
-  
   "City": [
     {
       "Id": 1,
@@ -42,7 +63,6 @@
       "Name": "Bani Mazar"
     }
   ],
-  
   "Government": [
     {
       "Id": 1,
@@ -56,7 +76,6 @@
       "Id": 3,
       "Name": "Alex"
     },
-   
     {
       "Id": 4,
       "Name": "Asuuit"

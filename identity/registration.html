@@ -52,22 +52,22 @@
 						<input class="input100" type="email" id="Email" name="email" placeholder="Email addess...">
 						<span class="focus-input100"></span>
 					</div>
-
+<!-- 
 					<div class="wrap-input100 validate-input" data-validate="Username is required">
 						<span class="label-input100">Username</span>
 						<input class="input100" type="text" name="username" placeholder="Username...">
 						<span class="focus-input100"></span>
-					</div>
+					</div> -->
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="text" id="password" name="pass" placeholder="*************">
+						<input class="input100" type="password" id="password" name="pass" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Repeat Password is required">
 						<span class="label-input100">Repeat Password</span>
-						<input class="input100" type="text" name="repeat-pass" placeholder="*************">
+						<input class="input100" type="password" name="repeat-pass" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -127,15 +127,15 @@
 							  <div class="col-sm-10">
 
 								<div class="form-check">
-									<input onclick="notdisplayCheck()" class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="customer">
-									<label class="form-check-label" for="gridRadios1">
+									<input onclick="notdisplayCheck()" class="form-check-input" type="radio" name="type" id="customer" value="customer">
+									<label class="form-check-label" for="type">
 									  Customer
 									</label>
 								  </div>
 
 								<div class="form-check">
-								  <input onclick="displayCheck()" class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="company">
-								  <label class="form-check-label" for="gridRadios2">
+								  <input onclick="displayCheck()" class="form-check-input" type="radio" name="type" id="company" value="company">
+								  <label class="form-check-label" for="type">
 									Company
 								  </label>
 								</div>
@@ -151,40 +151,40 @@
 							  <div class="col-sm-10">
 
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxsgridcheckboxs1" value="polishing">
-									<label class="form-check-label" for="gridcheckboxs1">
+									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="polishing" value="polishing">
+									<label class="form-check-label" for="polishing">
 									  خدمة جلي و تنظيف
 									</label>
 								  </div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxsgridcheckboxs1" value="sterilization">
-								  <label class="form-check-label" for="gridcheckboxs1">
+								  <input class="form-check-input" type="radio" name="gridcheckboxsServices" id="sterilization" value="sterilization">
+								  <label class="form-check-label" for="sterilization">
 									خدمة التعقيم والتطهير
 								  </label>
 								</div>
 
 
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="insideOut">
-								  <label class="form-check-label" for="gridcheckboxs2">
+								  <input class="form-check-input" type="radio" name="gridcheckboxsServices" id="insideOut" value="insideOut">
+								  <label class="form-check-label" for="insideOut">
 									نظافه الواجهات الخارجية و الداخليه للمبانى  
 								  </label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="HouseClean">
-									<label class="form-check-label" for="gridcheckboxs2">
+									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="HouseClean" value="HouseClean">
+									<label class="form-check-label" for="HouseClean">
 										نظافه منزليه
 									</label>
 								  </div>
 								  <div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="InBuild">
-									<label class="form-check-label" for="gridcheckboxs2">
+									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="InBuild" value="InBuild">
+									<label class="form-check-label" for="InBuild">
 										نظافة المنشآت من الداخل
 									</label>
 								  </div>
 								  <div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxs" id="gridcheckboxs2" value="specified">
-									<label class="form-check-label" for="gridcheckboxs2">
+									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="specified" value="specified">
+									<label class="form-check-label" for="specified">
 										خدمات محدده
 									</label>
 								  </div>
@@ -217,7 +217,7 @@
 					<div class="container-login100-form-btn">
 						<div class="wrap-login100-form-btn">
 							<div class="login100-form-bgbtn"></div>
-							<button class="login100-form-btn">
+							<button type="button" onclick="postData()" class="login100-form-btn">
 								Sign Up
 							</button>
 						</div>
