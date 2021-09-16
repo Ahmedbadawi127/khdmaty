@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <!--===============================================================================================-->	
 	<link rel="icon" type="image/png" href="images/icons/favicon.ico"/>
+
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
 <!--===============================================================================================-->
@@ -43,31 +44,31 @@
 
 					<div class="wrap-input100 validate-input" data-validate="Name is required">
 						<span class="label-input100">Full Name</span>
-						<input class="input100" type="text" id="name" name="name" placeholder="Name...">
+						<input required class="input100" type="text" id="name" name="name" placeholder="Name...">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
 						<span class="label-input100">Email</span>
-						<input class="input100" type="email" id="Email" name="email" placeholder="Email addess...">
+						<input required class="input100" type="email" id="Email" name="email" placeholder="Email addess...">
 						<span class="focus-input100"></span>
 					</div>
 <!-- 
 					<div class="wrap-input100 validate-input" data-validate="Username is required">
 						<span class="label-input100">Username</span>
-						<input class="input100" type="text" name="username" placeholder="Username...">
+						<input required class="input100" type="text" name="username" placeholder="Username...">
 						<span class="focus-input100"></span>
 					</div> -->
 
 					<div class="wrap-input100 validate-input" data-validate = "Password is required">
 						<span class="label-input100">Password</span>
-						<input class="input100" type="password" id="password" name="pass" placeholder="*************">
+						<input required class="input100" type="password" id="password" name="pass" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
 					<div class="wrap-input100 validate-input" data-validate = "Repeat Password is required">
 						<span class="label-input100">Repeat Password</span>
-						<input class="input100" type="password" name="repeat-pass" placeholder="*************">
+						<input required class="input100" type="password" name="repeat-pass" placeholder="*************">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -76,7 +77,7 @@
 					
 					<div class="wrap-input100 validate-input" data-validate="Phone is required">
 						<span class="label-input100">Phone</span>
-						<input class="input100" type="tel" id="Phone" name="Phone" placeholder="Phone...">
+						<input required class="input100" type="tel" id="Phone" name="Phone" placeholder="Phone...">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -84,13 +85,13 @@
 					<!-- <div class="form-group row">
 						<label for="inputPhone" class="col-sm-2 form-control-label">Phone</label>
 						<div class="col-sm-10">
-							<input type="email" class="form-control form-control" id="phone" placeholder="Phone">
+							<input required type="email" class="form-control form-control" id="phone" placeholder="Phone">
 						</div>
 					</div> -->
 
 					<div class="wrap-input100 validate-input" data-validate="address is required">
 						<span class="label-input100">address</span>
-						<input class="input100" type="text" id="address" name="address" rows="5"  placeholder="address...">
+						<input required class="input100" type="text" id="address" name="address" rows="5"  placeholder="address...">
 						<span class="focus-input100"></span>
 					</div>
 
@@ -127,14 +128,14 @@
 							  <div class="col-sm-10">
 
 								<div class="form-check">
-									<input onclick="notdisplayCheck()" class="form-check-input" type="radio" name="type" id="customer" value="customer">
+									<input required onclick="notdisplayCheck()" class="form-check-input" type="radio" name="type" id="customer" value="customer">
 									<label class="form-check-label" for="type">
 									  Customer
 									</label>
 								  </div>
 
 								<div class="form-check">
-								  <input onclick="displayCheck()" class="form-check-input" type="radio" name="type" id="company" value="company">
+								  <input required onclick="displayCheck()" class="form-check-input" type="radio" name="type" id="company" value="company">
 								  <label class="form-check-label" for="type">
 									Company
 								  </label>
@@ -151,13 +152,13 @@
 							  <div class="col-sm-10">
 
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="polishing" value="polishing">
+									<input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="polishing" value="polishing">
 									<label class="form-check-label" for="polishing">
 									  خدمة جلي و تنظيف
 									</label>
 								  </div>
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridcheckboxsServices" id="sterilization" value="sterilization">
+								  <input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="sterilization" value="sterilization">
 								  <label class="form-check-label" for="sterilization">
 									خدمة التعقيم والتطهير
 								  </label>
@@ -165,25 +166,25 @@
 
 
 								<div class="form-check">
-								  <input class="form-check-input" type="radio" name="gridcheckboxsServices" id="insideOut" value="insideOut">
+								  <input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="insideOut" value="insideOut">
 								  <label class="form-check-label" for="insideOut">
 									نظافه الواجهات الخارجية و الداخليه للمبانى  
 								  </label>
 								</div>
 								<div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="HouseClean" value="HouseClean">
+									<input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="HouseClean" value="HouseClean">
 									<label class="form-check-label" for="HouseClean">
 										نظافه منزليه
 									</label>
 								  </div>
 								  <div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="InBuild" value="InBuild">
+									<input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="InBuild" value="InBuild">
 									<label class="form-check-label" for="InBuild">
 										نظافة المنشآت من الداخل
 									</label>
 								  </div>
 								  <div class="form-check">
-									<input class="form-check-input" type="radio" name="gridcheckboxsServices" id="specified" value="specified">
+									<input required class="form-check-input" type="radio" name="gridcheckboxsServices" id="specified" value="specified">
 									<label class="form-check-label" for="specified">
 										خدمات محدده
 									</label>
@@ -200,7 +201,7 @@
 
 					<div class="flex-m w-full p-b-33">
 						<div class="contact100-form-checkbox">
-							<input class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
+							<input required class="input-checkbox100" id="ckb1" type="checkbox" name="remember-me">
 							<label class="label-checkbox100" for="ckb1">
 								<span class="txt1">
 									I agree to the
@@ -231,7 +232,8 @@
 			</div>
 		</div>
 	</div>
-	
+
+
 <!--===============================================================================================-->
 <script >
 function displayCheck() {
@@ -245,7 +247,6 @@ function displayCheck() {
 	
   }
   </script>
-
 
 
 	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
@@ -262,7 +263,10 @@ function displayCheck() {
 <!--===============================================================================================-->
 	<script src="vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
+
+
 	<script src="js/main.js"></script>
+	
 	<script src="/identity/js/registration.js"></script>
 	<script src="/identity/js/lookups.js"></script>
 

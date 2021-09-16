@@ -1,5 +1,4 @@
-async function postData() {
-  console.log("bbbbb");
+function postData() {
 
     var userName = document.getElementById("name").value;
     var userEmail = document.getElementById("Email").value;
@@ -28,9 +27,8 @@ async function postData() {
         city: usercity
     }
 
-    console.log("aaaaa");
 
-await fetch('http://localhost:3000/systemusers', {
+fetch('http://localhost:3000/systemusers', {
     method: 'POST', // or 'PUT'
     headers: {
       'Content-Type': 'application/json',

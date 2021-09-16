@@ -10,7 +10,7 @@
         for (var i = 0; i < yourCity.length; i++) {
             // CITY SELECT ELEMENT WITH JSON.
             ele.innerHTML = ele.innerHTML +
-                '<option value="' + yourCity[i]['Id'] + '">' + yourCity[i]['Name'] + '</option>';
+                '<option value="' + yourCity[i]['Name'] + '">' + yourCity[i]['Name'] + '</option>';
         }
 
 
@@ -30,7 +30,7 @@
         for (var i = 0; i < Government.length; i++) {
             // CITY SELECT ELEMENT WITH JSON.
             ele.innerHTML = ele.innerHTML +
-                '<option value="' + Government[i]['Id'] + '">' + Government[i]['Name'] + '</option>';
+                '<option value="' + Government[i]['Name'] + '">' + Government[i]['Name'] + '</option>';
         }
         
 }).catch(err => {

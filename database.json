@@ -10,39 +10,6 @@
       "government": "minia",
       "city": "minia",
       "id": 1
-    },
-    {
-      "name": "ahmed",
-      "email": "ahmed@gmail.com",
-      "password": "12345678",
-      "phone": "332432423",
-      "type": "customer",
-      "address": "cairo",
-      "government": "cairo",
-      "city": "cairo",
-      "id": 2
-    },
-    {
-      "name": "Ahmed Badawi",
-      "email": "ahmedbadawi127@gmail.com",
-      "password": "1",
-      "phone": "+201008253091",
-      "type": "company",
-      "address": "19 shaaban shalaby - andalos - haram - giza",
-      "government": "2",
-      "city": "3",
-      "id": 3
-    },
-    {
-      "name": "Ahmed tttt",
-      "email": "ahmedbadawi127@gmail.com",
-      "password": "1111111111",
-      "phone": "+201008253091",
-      "type": "company",
-      "address": "19 shaaban shalaby - andalos - haram - giza",
-      "government": "3",
-      "city": "1",
-      "id": 4
     }
   ],
   "City": [
@@ -79,6 +46,418 @@
     {
       "Id": 4,
       "Name": "Asuuit"
+    }
+  ],
+  "customerorders": [
+    {
+      "name": "malk",
+      "email": "mohamed@gmail.com",
+      "phone": "01203743103",
+      "address": "minia",
+      "government": "minia",
+      "city": "minia",
+      "state": "processing",
+      "serviceName": "aaa",
+      "id": 3
+    },
+    {
+      "name": "ashraf",
+      "email": "mohamed@gmail.com",
+      "phone": "123321231",
+      "address": "ffgfgcfcg",
+      "government": "fcgfgcfcgf",
+      "city": "gcfcfggcf",
+      "state": "accepted",
+      "serviceName": "aaa",
+      "id": 6
+    },
+    {
+      "name": "",
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 7
+    },
+    {
+      "name": "",
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 8
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 9
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 10
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 11
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 12
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 13
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 14
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 15
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 16
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 17
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 18
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 19
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 20
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 21
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 22
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 23
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 24
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 25
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 26
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 27
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 28
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 29
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 30
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 31
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 32
+    },
+    {
+      "name": "",
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 33
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 34
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 35
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 36
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 37
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 38
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 39
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 40
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 41
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 42
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 43
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 44
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 45
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 46
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 47
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 48
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 49
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 50
+    },
+    {
+      "email": "mohamed@gmail.com; email",
+      "state": "processing",
+      "id": 51
+    },
+    {
+      "name": "Ahmed Badawi",
+      "email": "mohamed@gmail.com;",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "2",
+      "city": "3",
+      "state": "processing",
+      "serviceName": "aaaa",
+      "id": 52
+    },
+    {
+      "name": "Ahmed Badawi",
+      "email": "mohamed@gmail.com;",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "Alex",
+      "city": "Malawi",
+      "state": "processing",
+      "id": 53
+    },
+    {
+      "name": "Ahmed tttt",
+      "email": "mohamed@gmail.com; email",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "3",
+      "city": "1",
+      "state": "processing",
+      "serviceName": "aaaa",
+      "id": 54
+    },
+    {
+      "name": "Ahmed Badawi new",
+      "email": "mohamed@gmail.com; email",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "Minia",
+      "city": "Malawi",
+      "state": "processing",
+      "id": 55
+    },
+    {
+      "state": "processing",
+      "id": 56
+    },
+    {
+      "state": "processing",
+      "id": 57
+    },
+    {
+      "state": "processing",
+      "id": 58
+    },
+    {
+      "state": "processing",
+      "id": 59
+    },
+    {
+      "state": "processing",
+      "id": 60
+    },
+    {
+      "state": "processing",
+      "id": 61
+    },
+    {
+      "state": "processing",
+      "id": 62
+    },
+    {
+      "state": "processing",
+      "id": 63
+    },
+    {
+      "state": "processing",
+      "id": 64
+    },
+    {
+      "state": "processing",
+      "id": 65
+    },
+    {
+      "state": "processing",
+      "id": 66
+    },
+    {
+      "state": "processing",
+      "id": 67
+    },
+    {
+      "state": "processing",
+      "id": 68
+    },
+    {
+      "state": "processing",
+      "id": 69
+    },
+    {
+      "state": "processing",
+      "id": 70
+    },
+    {
+      "state": "processing",
+      "id": 71
+    },
+    {
+      "state": "processing",
+      "id": 72
+    },
+    {
+      "state": "processing",
+      "id": 73
+    },
+    {
+      "name": "Ahmed Badawi",
+      "email": "ahmedbadawi127@gmail.com",
+      "companyMail": "mohamed@gmail.com",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "2",
+      "city": "3",
+      "state": "processing",
+      "serviceName": "aaaa",
+      "id": 74
+    },
+    {
+      "name": "Ahmed tttt",
+      "email": "ahmedbadawi127@gmail.com",
+      "companyMail": "mohamed@gmail.com",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "3",
+      "city": "1",
+      "state": "processing",
+      "serviceName": "aaaa",
+      "id": 75
+    },
+    {
+      "name": "Ahmed Badawi new",
+      "email": "ahmedbadawi127@gmail.com",
+      "companyMail": "mohamed@gmail.com",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "Minia",
+      "city": "Malawi",
+      "state": "accepted",
+      "id": 76
+    },
+    {
+      "name": "Ahmed Badawi",
+      "email": "ahmedbadawi127@gmail.com",
+      "companyMail": "mohamed@gmail.com",
+      "phone": "+201008253091",
+      "address": "19 shaaban shalaby - andalos - haram - giza",
+      "government": "Alex",
+      "city": "Malawi",
+      "state": "rejected",
+      "id": 77
     }
   ]
 }
