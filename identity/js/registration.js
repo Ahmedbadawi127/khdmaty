@@ -4,15 +4,22 @@ function postData() {
     var userEmail = document.getElementById("Email").value;
     var userpassword = document.getElementById("password").value;
     var userphone = document.getElementById("Phone").value;
-    var type=document.getElementById("customer").checked;
-    if(type)
+    var typeCustomer=document.getElementById("customer").checked;
+    var typeCompany=document.getElementById("company").checked;
+var type;
+    if(typeCustomer)
     {
       type="customer";
     }
-    else
+    else if(typeCompany)
     {
       type="company";
     }
+    else
+    {
+      alert("kindly chose Account type")
+    }
+
     var useraddress = document.getElementById("address").value;
     var usergovernment = document.getElementById("government").value;
     var usercity = document.getElementById("city").value;
